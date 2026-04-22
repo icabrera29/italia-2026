@@ -6,7 +6,7 @@ export default function Home() {
     <>
       {/* TopAppBar */}
       <nav className="fixed top-0 left-0 right-0 z-50 flex justify-between items-center w-full px-8 py-6 bg-background/80 backdrop-blur-md border-b border-outline-variant/10">
-        <div className="text-2xl font-headline italic text-primary">L'Italia Curata</div>
+        <div className="text-2xl font-headline italic text-primary">Italia 2026</div>
         <div className="hidden md:flex gap-8 items-center">
           <a className="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#rome">Roma</a>
           <a className="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#positano">Positano</a>
@@ -51,10 +51,10 @@ export default function Home() {
               {/* Roma */}
               <div className="col-span-1 lg:col-span-12 flex flex-col lg:flex-row gap-8 items-center lg:items-end mb-12" id="rome">
                 <div className="w-full lg:w-7/12 relative group h-[500px]">
-                  <Image 
-                    src="/coliseo.jpg" 
-                    alt="Coliseo de Roma" 
-                    fill 
+                  <Image
+                    src="/coliseo.jpg"
+                    alt="Coliseo de Roma"
+                    fill
                     className="object-cover rounded-DEFAULT"
                     unoptimized
                   />
@@ -72,10 +72,10 @@ export default function Home() {
               {/* Positano */}
               <div className="col-span-1 lg:col-span-12 flex flex-col lg:flex-row-reverse gap-8 items-center lg:items-end mb-12" id="positano">
                 <div className="w-full lg:w-7/12 relative group h-[500px]">
-                  <Image 
-                    src="/positano-1.jpg" 
-                    alt="Costa de Positano" 
-                    fill 
+                  <Image
+                    src="/positano-1.jpg"
+                    alt="Costa de Positano"
+                    fill
                     className="object-cover rounded-DEFAULT"
                     unoptimized
                   />
@@ -93,10 +93,10 @@ export default function Home() {
               {/* Venezia */}
               <div className="col-span-1 lg:col-span-12 flex flex-col lg:flex-row gap-8 items-center lg:items-end" id="venice">
                 <div className="w-full lg:w-7/12 relative group h-[500px]">
-                  <Image 
-                    src="/venezia.jpg" 
-                    alt="Canales de Venecia" 
-                    fill 
+                  <Image
+                    src="/venezia.jpg"
+                    alt="Canales de Venecia"
+                    fill
                     className="object-cover rounded-DEFAULT"
                     unoptimized
                   />
