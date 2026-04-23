@@ -33,7 +33,7 @@ export default function Home() {
           <h1 className="font-headline text-5xl md:text-7xl lg:text-8xl mb-6 tracking-tight drop-shadow-lg">Il Nostro Viaggio <br/><span className="italic text-tertiary-fixed">in Italia</span></h1>
           <p className="font-body text-xl md:text-2xl mb-12 text-surface-container-low max-w-2xl mx-auto">Un viaje seleccionado a través del corazón del Mediterráneo.</p>
           <div className="bg-surface/80 backdrop-blur-md rounded-xl p-8 max-w-xl mx-auto border border-outline-variant/30">
-            <p className="font-label text-sm uppercase tracking-widest text-primary mb-6 font-semibold">Cuenta atrás para el 16 de mayo</p>
+            <p className="font-label text-sm uppercase tracking-widest text-primary mb-6 font-semibold">Cuenta regresiva para el 16 de mayo</p>
             <Countdown />
           </div>
         </div>
